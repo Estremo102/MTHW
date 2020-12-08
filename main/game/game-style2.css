@@ -1,0 +1,221 @@
+.games {
+    margin-top: 20px;
+    
+}
+
+header {
+    margin-top: 0px;
+    font-family: 'Roboto Thin';
+    font-size: 62px;
+    margin-bottom: 20px;
+}
+
+section {
+    text-align: center;
+    padding: 8%;
+}
+
+section nav {
+    font-family: 'Roboto Thin';
+    font-size: 36px;
+    line-height: 55px;
+    text-align: left;
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+section .mybutton {
+    font-family: 'Roboto';
+    font-size: 24px;
+    color: #151D21;
+    background: #ff7a7a;
+    display: inline-flex;
+    padding: 6px;
+    margin-top: 30px;
+    margin-right: 5%;
+    margin-left: 5%;
+    border: none;
+    border-radius: 5px;
+}
+.features {
+	color: gray;
+	padding: 20px;
+	display: flex;
+    flex-direction: row;
+    position: relative;
+    top: -90px;
+}
+
+.features figure {
+    margin: auto;
+    padding: 5px;
+	text-align: center;
+    width: 300px;
+}
+
+.features figure img {
+	border-radius: 50%;
+	width: 300px;
+    height: 300px;
+    box-shadow: 7px 6px 50px 0px #e78200;
+}
+
+figure img:hover {
+    filter: brightness(0.7);
+    
+}
+
+figure figcaption {
+    font-family: 'Roboto Black';
+    font-size: 36px;
+    margin-top: 10px;
+    margin-bottom: 100px;
+}
+
+figure figcaption a:hover {
+    color: #e78200;
+}
+
+.bg-modal{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0, 0.7);
+    position: fixed;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: none;
+    
+}
+
+.rul-bg-modal{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0, 0.7);
+    position: fixed;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: none;
+}
+.modal-content{
+    width: 1500px;
+    height: 900px;
+    background-color: rgb(255,255,255);
+    border-radius: 40px;
+    border: solid 5px;
+    border-color: #e78200;
+    text-align: center;
+    position: relative;
+}
+
+.bg-btn{
+    height: 49%;
+    width: 100%;
+    font-size: 100px;
+    text-align: center;
+    justify-content: center;
+    vertical-align: middle;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    background-color: aliceblue;
+    margin-top: 5px;
+    background: linear-gradient(to left,#1a1a1a, #181818);
+   
+    
+}
+
+.bg-btn:hover{
+    filter: brightness(0.6);
+    
+}
+
+#modal-content{
+    width: 100%;
+    height: 100%;
+    overflow-y: auto;
+    overflow-x: hidden;
+    margin: 15px;
+    margin-top: 0%;
+    margin-left: 0%;
+    background-color: #e78200;
+    border-radius: 30px;
+    
+    
+}
+
+.game-title{
+    width: 300px;
+    height: 50px;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #e78200;
+    left: 1125px;
+    top: 635px;
+}
+
+.close{
+    position: absolute;
+    top: 0;
+    color: #e78200;
+    right: 34px;
+    font-size: 92px;
+    transform: rotate(45deg);
+    z-index: 999;
+    cursor: pointer;
+}
+
+.modal-button{
+    cursor: pointer;
+}
+
+.rul-modal-button{
+    cursor: pointer;
+}
+
+.logo:hover{
+    transform: rotate(-5deg);
+}
+
+.rules{
+    height: 66.75%;
+    width: 80%;
+    font-size: 20px;
+    text-align: center;
+    justify-content: center;
+    vertical-align: middle;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    background-color: aliceblue;
+    border-radius: 30px;
+    background: linear-gradient(to left,#1a1a1a, #181818);
+    padding: 10%;
+    overflow: auto;
+    
+}
+
+@media only screen and (max-width: 2000px){
+    .modal-content{
+        width: 1000px;
+        height: 600px;
+    }
+}
+@media only screen and (max-width: 992px){
+    .modal-content{
+        width: 500px;
+        height: 300px;
+    }
+}
+@media only screen and (max-width: 600px){
+    .modal-content{
+        width: 500px;
+        height: 600px;
+    }
+}

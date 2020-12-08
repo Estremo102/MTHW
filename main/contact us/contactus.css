@@ -1,0 +1,79 @@
+.main-content {
+    font-weight: bold;
+}
+
+.main-content > ul {
+    padding: 10px;
+    margin: 10px;
+}
+
+.main-content > ul > li {
+    display: inline-block;
+    width: 15%;
+}
+
+.main-content > ul > li > a > img {
+    width: 70px;
+    height: 70px;
+    margin: 12px;
+    position: absolute;
+}
+
+.main-content > ul > li > a > img:hover {
+    margin: 8px;
+    width: 80px;
+    height: 80px;
+}
+
+#subject {
+    width: 80%;
+    background-color: #444;
+    color: #FFF;
+    padding: 2px;
+    font-weight: bold;
+}
+
+#mail {
+    width: 80%;
+    background-color: #444;
+    color: #FFF;
+    padding: 2px;
+    font-weight: bold;
+}
+
+#category {
+    width: 80%;
+    background-color: #444;
+    color: #FFF;
+    padding: 2px;
+    font-weight: bold;
+}
+
+#content {
+    width: 80%;
+    height: 420px;
+    background-color: #444;
+    color: #FFF;
+    padding: 2px;
+}
+
+#send {
+    background-color: #444;
+    padding: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    color: #FFF;
+    font-weight: bold;
+}
+
+.links > li > a > img {
+    padding-bottom: 40px;
+}
+
+.mailSend {
+    text-align: center;
+    margin-top: 240px;
+    margin-bottom: 240px;
+}

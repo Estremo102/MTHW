@@ -1,0 +1,246 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+body{
+    background: linear-gradient(to left,#252525, #272727);
+    color: beige;
+    height:100%;
+    font-family: 'Roboto';
+    font-size:20px;
+    padding:0px;
+    margin: 0px;
+}
+
+a {
+    text-decoration: none;
+    color: aliceblue;
+}
+
+html {
+scroll-behavior: smooth;
+}
+html, body{
+    height: 100%;
+}
+nav{
+    min-height: 100px;
+    height: 270px;
+    width: 100%;
+    z-index: 1;
+    background: linear-gradient(to left,#1a1a1a, #181818);
+    z-index: 9999;
+}
+.logo-container{
+    width: 17%;
+    min-width: 250px;
+    height: 100%;
+    float: left;
+}
+.logo{
+    margin-left: 10%;
+    margin-top: 10%;
+    width: 80%;
+    height: 80%;
+}
+.buttons-container{
+    float: right;
+    height: 100%;
+    width: 1100px;
+    max-width: 78%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 35px;
+}
+.menu-button{
+    font-size: 2.3em;
+    margin-top: 10%;
+    margin-right: 5%;
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+    background: linear-gradient(currentColor, currentColor) bottom / 0 .1em no-repeat;
+    transition: 0.2s background-size;
+}
+
+.menu-button:hover {
+    color: #e78200;
+    background-size: 100% .1em;
+}
+
+aside{
+    height: 100%;
+    width: 15%;
+    position: fixed;
+    z-index: -1;
+    top:0;
+}
+.right{
+margin-left: 90%;
+}
+section{
+    margin-bottom: 3%;
+}
+section article{
+    padding-left: 5%;
+    padding-right:5% ;
+    text-align: center;
+}
+.profile-container{
+    display: block;
+    position: absolute;
+    height: 50%;
+    margin-left: 20px;
+    font-size: 0.9em;
+    font-weight: 800;
+    padding-top:10px;
+}
+.main-content{
+    margin-left: 15%;
+    margin-right: 15%;
+}
+.guest{
+    display: none;
+
+}
+.logged{
+    display:none;
+
+}
+.nick{
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+@media only screen and (max-width: 1200px) {
+    nav{
+        min-height: 100px;
+        height: 27%;
+        width: 100%;
+    }
+    .logo-container{
+        width: 20%;
+        min-width: 250px;
+        height: 100%;
+    }
+    .logo{
+        margin-left: 10%;
+        margin-top: 10%;
+        width: 80%;
+        height: 80%;
+    }
+    .buttons-container{
+        height: 100%;
+        width: 900px;
+        max-width: 74%;
+    }
+    .menu-button{
+        font-size: 1.8em;
+        margin-top: 12%;
+    }
+    .profile-container{
+        font-size: 0.8em;
+    }
+}
+@media only screen and (max-width: 992px) {
+    nav{
+        min-height: 100px;
+        height: 24%;
+        width: 100%;
+    }
+    .logo-container{
+        width: 20%;
+        min-width: 220px;
+        height: 100%;
+    }
+    .logo{
+        margin-left: 10%;
+        margin-top: 10%;
+        width: 80%;
+        height: 80%;
+    }
+    .buttons-container{
+        height: 100%;
+        width: 900px;
+        max-width: 70%;
+    }
+    .menu-button{
+        font-size: 1.4em;
+        margin-top: 14%;
+        margin-right: 4%;
+    }
+    .profile-container{
+        font-size: 0.7em;
+        margin-left: 10px;
+        margin-right: 13px;
+    }
+}
+@media only screen and (max-width: 768px) {
+    nav{
+        min-height: 100px;
+        height: 21%;
+        width: 100%;
+    }
+    .logo-container{
+        width: 20%;
+        min-width: 190px;
+        height: 100%;
+    }
+    .logo{
+        margin-left: 10%;
+        margin-top: 10%;
+        width: 70%;
+        height: 70%;
+    }
+    .logo img{
+        width: 140px;
+    }
+    .buttons-container{
+        height: 100%;
+        width: 900px;
+        max-width: 67%;
+    }
+    .menu-button{
+        font-size: 1.2em;
+        margin-right: 1%;
+        margin-top: 16%;
+    }
+    .profile-container{
+        margin-left: 8px;
+        width: 100px;
+    }
+}
+@media only screen and (max-width: 600px) {
+    nav{
+        min-height: 100px;
+        height: 17%;
+        width: 100%;
+    }
+    .logo-container{
+        width: 20%;
+        min-width: 158px;
+        height: 100%;
+    }
+    .logo{
+        margin-left: 10%;
+        margin-top: 10%;
+        width: 70%;
+        height: 70%;
+    }
+    .logo img{
+        width: 120px;
+    }
+    .buttons-container{
+        height: 100%;
+        width: 860px;
+        max-width: 63%;
+    }
+    .menu-button{
+        font-size: 0.8em;
+        margin-right: 0.8%;
+        margin-top: 16%;
+    }
+    .profile-container{
+        margin-left: 5px;
+        width: 90px;
+    }
+}
+
+        
